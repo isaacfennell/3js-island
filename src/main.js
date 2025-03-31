@@ -25,7 +25,7 @@ const scene = new THREE.Scene()
 // Load the .glb model
 const loader = new GLTFLoader()
 loader.load(
-  "src/models/mount.blend1.glb", // Replace with the actual path to your .glb file
+  "mount.blend1.glb", // Replace with the actual path to your .glb file
   (gltf) => {
     // Add the loaded model to the scene
     const model = gltf.scene
